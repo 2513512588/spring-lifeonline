@@ -1,0 +1,27 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/lifeonline_db_release?characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT-8
+    username: root
+    password: 960918
+  application:
+    name: service-live
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#feign: #开启熔断
+#feign:
+#  hystrix:
+#    enabled: true
+mybatis-plus:
+  mapper-locations: classpath:com/lifeonline/servicelive/mapper/xml/*.xml
+#  type-aliases-package: com.lifeonline.servicelive.model
+logging:
+  level.com.lifeonline: debug
+feign:
+  httpclient:
+    connection-timeout: 4000

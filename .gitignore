@@ -1,0 +1,4 @@
+/service/service-live/target/
+/service/service-oss/target/
+/common/security-sso/target/
+/common/common-utils/target/

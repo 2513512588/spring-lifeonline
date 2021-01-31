@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="lifeonline_db_release@localhost" uuid="aff9fa00-4c28-4f5b-8bcb-f2c0dca2af90">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/lifeonline_db_release?characterEncoding=UTF-8&amp;useSSL=false&amp;serverTimezone=GMT-8</jdbc-url>
+    </data-source>
+  </component>
+</project>
