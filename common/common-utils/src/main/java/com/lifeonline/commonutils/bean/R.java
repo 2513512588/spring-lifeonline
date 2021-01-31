@@ -31,6 +31,10 @@ public class R {
         return r;
     }
 
+    public static R auto(Boolean success){
+        return success ? ok() : error();
+    }
+
     public R code(Integer code){
         this.code = code;
         return this;
